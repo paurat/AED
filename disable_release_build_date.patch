@@ -1,0 +1,35 @@
+diff --git a/.cproject b/.cproject
+index 3f7f81b..be720a6 100644
+--- a/.cproject
++++ b/.cproject
+@@ -118,7 +118,7 @@
+ 				</extensions>
+ 			</storageModule>
+ 			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+-				<configuration artifactExtension="elf" artifactName="${ProjName}_${ConfigName}_${current_date}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -rf" description="" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.918697250" name="Release" parent="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release">
++				<configuration artifactExtension="elf" artifactName="${ProjName}_${ConfigName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -rf" description="" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.918697250" name="Release" parent="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release">
+ 					<folderInfo id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.918697250." name="/" resourcePath="">
+ 						<toolChain id="com.st.stm32cube.ide.mcu.gnu.managedbuild.toolchain.exe.release.2129184192" name="MCU ARM GCC" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.toolchain.exe.release">
+ 							<option id="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu.1602926234" name="MCU" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu" useByScannerDiscovery="true" value="STM32G071RBTx" valueType="string"/>
+diff --git a/nais_bk002 Release.launch b/nais_bk002 Release.launch
+index 2af99e3..38316b5 100644
+--- a/nais_bk002 Release.launch	
++++ b/nais_bk002 Release.launch	
+@@ -8,7 +8,7 @@
+     <stringAttribute key="com.st.stm32cube.ide.mcu.debug.launch.ip_address_local" value="localhost"/>
+     <booleanAttribute key="com.st.stm32cube.ide.mcu.debug.launch.limit_swo_clock.enabled" value="false"/>
+     <stringAttribute key="com.st.stm32cube.ide.mcu.debug.launch.limit_swo_clock.value" value=""/>
+-    <stringAttribute key="com.st.stm32cube.ide.mcu.debug.launch.loadList" value="{&quot;fItems&quot;:[{&quot;fIsFromMainTab&quot;:true,&quot;fPath&quot;:&quot;Release/nais_bk002_Release_${current_date}.elf&quot;,&quot;fProjectName&quot;:&quot;nais_bk002&quot;,&quot;fPerformBuild&quot;:true,&quot;fDownload&quot;:true,&quot;fLoadSymbols&quot;:true}]}"/>
++    <stringAttribute key="com.st.stm32cube.ide.mcu.debug.launch.loadList" value="{&quot;fItems&quot;:[{&quot;fIsFromMainTab&quot;:true,&quot;fPath&quot;:&quot;Release/nais_bk002_Release.elf&quot;,&quot;fProjectName&quot;:&quot;nais_bk002&quot;,&quot;fPerformBuild&quot;:true,&quot;fDownload&quot;:true,&quot;fLoadSymbols&quot;:true}]}"/>
+     <stringAttribute key="com.st.stm32cube.ide.mcu.debug.launch.override_start_address_mode" value="default"/>
+     <stringAttribute key="com.st.stm32cube.ide.mcu.debug.launch.remoteCommand" value="target remote"/>
+     <booleanAttribute key="com.st.stm32cube.ide.mcu.debug.launch.startServer" value="true"/>
+@@ -63,7 +63,7 @@
+     <stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_START_MODE" value="remote"/>
+     <booleanAttribute key="org.eclipse.cdt.launch.DEBUGGER_STOP_AT_MAIN" value="true"/>
+     <stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_STOP_AT_MAIN_SYMBOL" value="main"/>
+-    <stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="Release/nais_bk002_Release_${current_date}.elf"/>
++    <stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="Release/nais_bk002_Release.elf"/>
+     <stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="nais_bk002"/>
+     <booleanAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_AUTO_ATTR" value="false"/>
+     <stringAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_ID_ATTR" value="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.918697250"/>
